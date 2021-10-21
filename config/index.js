@@ -17,7 +17,7 @@ inquirer
     console.log('s1');
 
     if (environment === 'react-typescript') {
-      fs.copySync(cwd + '/config/ts', cwd + '/src');
+      fs.copySync(cwd + '/config/src', cwd + '/src');
     }
 
     fs.removeSync(cwd + '/public');

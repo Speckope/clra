@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "inq": "node src/index.js"
+    "inq": "node config/index.js"
   },
   "keywords": [],
   "author": "",

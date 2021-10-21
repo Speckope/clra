@@ -20,10 +20,10 @@ inquirer
       fs.copySync(cwd + '/config/ts', cwd + '/src');
     }
 
-    fs.removeSync(cwd + '/src/public');
+    fs.removeSync(cwd + '/public');
     console.log('s3');
 
-    fs.copySync(cwd + '/config/public', cwd + '/src/public');
+    fs.copySync(cwd + '/config/public', cwd + '/public');
   });
 
 fs;

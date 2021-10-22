@@ -12,7 +12,7 @@ inquirer
     },
     {
       type: 'confirm',
-      message: 'Files inside public and src folders will be delted. Continue?',
+      message: 'Files inside public and src folders will be deleted. Continue?',
       name: 'confirmation',
     },
   ])
@@ -26,16 +26,15 @@ inquirer
 
     // TS
     if (environment === 'react-typescript') {
-      fs.copySync(cwd + '/config/src/ts', cwd + '/src');
+      fs.copySync(__dirname + '/src/ts', cwd + '/src');
     }
 
     // TS
     if (environment === 'react-javascript') {
-      fs.copySync(cwd + '/config/src/js', cwd + '/src');
+      fs.copySync(__dirname + '/src/js', cwd + '/src');
     }
 
     // Public folder
     fs.removeSync(cwd + '/public');
-
-    fs.copySync(cwd + '/config/public', cwd + '/public');
+    fs.copySync(__dirname + '/public', cwd + '/public');
   });

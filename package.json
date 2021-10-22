@@ -1,14 +1,21 @@
 {
-  "name": "cra-clean",
+  "name": "clra",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Clean CRA, reset css with opinionated index.css",
+  "main": "config/index.js",
+  "bin": "config/index.js",
   "scripts": {
-    "inq": "node config/index.js"
+    "start": "node config/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Create-React-App",
+    "Clean React App,",
+    "Typescript React App",
+    "Javascript React App",
+    "Css reset React App"
+  ],
+  "author": "Szymon Kucharski",
+  "license": "MIT",
   "dependencies": {
     "fs-extra": "^10.0.0",
     "inquirer": "^8.2.0"

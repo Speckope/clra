@@ -1,6 +1,6 @@
 {
   "name": "clra",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Clean CRA, reset css with opinionated index.css",
   "main": "config/index.js",
   "bin": "config/index.js",
